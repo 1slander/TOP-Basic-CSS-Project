@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Roboto', sans-serif; ;
+}
+/* Colors to use
+Header: Background & Information Text=#1F2937 Main Text=#F9FAF8 Secondary Text=#E5E7EB
+Button: #3882F6
+*/
+.header, .footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+/* Header */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.logo{
+  font-size: 24px;
+}
+
+.menu ul{
+  display: flex;
+  gap:15px;
+  list-style: none;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.header-container{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
