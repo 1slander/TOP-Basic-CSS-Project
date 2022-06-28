@@ -47,4 +47,26 @@ Button: #3882F6
   gap: 50px;
   margin-bottom: 50px;
 }
+/* Hero Text */
+.hero-text{
+  flex-wrap: wrap;
+  flex: 1;
+}
+.hero-title{
+  font-size: 48px;
+  padding-bottom: 5px;
+}
+.secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding-bottom: 10px;
+}
 
+button.hero-button{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 10px 25px;
+  border: none;
+  font: 800;
+  border-radius: 6px;
+}
