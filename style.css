@@ -18,7 +18,7 @@ Button: #3882F6
 .header{
   display: flex;
   flex-direction: column;
-  padding: 25px;
+  padding: 75px;
 }
 
 .navbar{
@@ -69,4 +69,139 @@ button.hero-button{
   border: none;
   font: 800;
   border-radius: 6px;
+}
+
+.image{
+  background-color: #8e8e8e;
+  padding: 70px;
+  width: 300px;
+  text-align: center;
+  align-self: center;
+}
+
+
+/* Information */
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  padding: 50px;
+  margin: 25px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  
+  
+}
+
+.infobox {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+padding: 40px;
+}
+
+
+.infoitem{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+
+}
+
+img {
+  border-color: #3882F6;
+  border-style: solid;
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+}
+
+.text {
+  color: #1F2937;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+/* Quote */
+
+.quote{
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 140px;
+  gap: 20px;
+
+}
+
+.quote1 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937;
+}
+
+
+.quote2 {
+align-self: flex-end;
+color: #1F2937;
+font-weight: bold;
+
+}
+
+
+
+/* Sign Up */
+
+.signup {
+  padding: 50px;
+}
+
+.signbox {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882F6;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.sign-text{
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.sign-text2 {
+  color: #E5E7EB;
+  font-size: 12px;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-color: #F9FAF8;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+/* Footer */
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  font-size: 12px;
 }
